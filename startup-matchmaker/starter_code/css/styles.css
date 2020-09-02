@@ -24,3 +24,90 @@ h1, h2, h3, h4, h5, h6, p {
   
   /* Background Image */
   /* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Oswald&display=swap');
+
+
+  * { 
+    border: 1px solid;
+  }
+
+  h1 {
+    font-family: 'Merriweather', serif;
+    color: #f2ff00;
+    background-color: black;
+  }
+
+  li {
+    background-color: black;
+    color: white;
+  }
+
+  .developer{
+    font-weight: 700px;
+  }
+
+  h2 {
+    font-style: italic;
+    font-family: "Merriweather";
+    background-color: #adadad ;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .taste {
+    color: #878787;
+    text-decoration: line-through;
+  }
+
+  .are {
+    text-decoration: underline;
+    text-decoration-color: #ffd900;
+  }
+
+  .create {
+    color: black;
+    background-color: #ffd900;
+  }
+
+  buttom {
+    background-color: #878787;
+  }
+
+  nav.ListContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav.ListContainer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  li.ItemContainer {
+    max-width: 185px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav.ListContainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+div.ItemContainer2 {
+  max-width: 185px;
+  padding: 20px;
+  text-align: left;
+}
+   
+
+
+
+
+
+  
