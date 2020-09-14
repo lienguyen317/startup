@@ -10,7 +10,121 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     padding: 15px 0;
   }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    border-top: 5px solid #878787;
+    border-bottom: 5px solid #f2ff00;
+  }
+
+  h1 {
+    color: #f2ff00;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+  }
+
+  .banner {
+    background-color: #adadad;
+    text-align: center;
+    padding: 18px;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  .strike {
+    color: #878787;
+    text-decoration: line-through;
+  }
   
+  .underline {
+    text-decoration: underline solid #f2ff00;
+  }
+
+  .matchProfileBox {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg);
+    background-size: cover;
+    background-position: 0px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+.match {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  background-color: white;
+  padding: 40px 30px;
+  opacity: 0.7;
+  margin: 40px;
+}
+
+.firstButton {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 95px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #f2ff00;
+  position: relative; 
+  bottom: 100px;
+  margin: 10px; 
+}
+
+#chooseLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+  .box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-left: 1px dotted #adadad; 
+  }
+
+  .bottomButton{
+    background-color: #adadad;
+    position: normal;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  /* Fonts, classes are so I can reuse the styles on a variety of elements */
+  .merriweather { font-family: 'Merriweather', serif; }
+  .oswald { font-family: 'Oswald', sans-serif; }
+  .lato { font-family: 'Lato', sans-serif; }
+   
+  footer {
+    color: white;
+    background-color: black;
+    padding: 10px 50px;
+  }
+
+
   /* Fonts, classes are so I can reuse the styles on a variety of elements */
   .merriweather { font-family: 'Merriweather', serif; }
   .oswald { font-family: 'Oswald', sans-serif; }
@@ -27,87 +141,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Oswald&display=swap');
 
 
-  * { 
-    border: 1px solid;
-  }
-
-  h1 {
-    font-family: 'Merriweather', serif;
-    color: #f2ff00;
-    background-color: black;
-  }
-
-  li {
-    background-color: black;
-    color: white;
-  }
-
-  .developer{
-    font-weight: 700px;
-  }
-
-  h2 {
-    font-style: italic;
-    font-family: "Merriweather";
-    background-color: #adadad ;
-    text-align: center;
-    padding: 12px;
-  }
-
-  .taste {
-    color: #878787;
-    text-decoration: line-through;
-  }
-
-  .are {
-    text-decoration: underline;
-    text-decoration-color: #ffd900;
-  }
-
-  .create {
-    color: black;
-    background-color: #ffd900;
-  }
-
-  buttom {
-    background-color: #878787;
-  }
-
-  nav.ListContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  nav.ListContainer ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  li.ItemContainer {
-    max-width: 185px;
-    padding: 20px;
-    text-align: center;
-  }
-
-  nav.ListContainer2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-div.ItemContainer2 {
-  max-width: 185px;
-  padding: 20px;
-  text-align: left;
-}
-   
-
-
-
-
+  
 
   
